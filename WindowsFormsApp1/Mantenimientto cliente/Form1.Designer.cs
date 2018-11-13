@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,6 +42,8 @@
             this.dglista = new System.Windows.Forms.DataGridView();
             this.btnagregar = new System.Windows.Forms.Button();
             this.btnactualizar = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dglista)).BeginInit();
             this.SuspendLayout();
             // 
@@ -151,12 +154,34 @@
             this.btnactualizar.TabIndex = 12;
             this.btnactualizar.Text = "Actualizar";
             this.btnactualizar.UseVisualStyleBackColor = true;
+            this.btnactualizar.Click += new System.EventHandler(this.btnactualizar_Click);
+            // 
+            // label6
+            // 
+            this.label6.Image = ((System.Drawing.Image)(resources.GetObject("label6.Image")));
+            this.label6.Location = new System.Drawing.Point(932, 111);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(317, 345);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "label6";
+            // 
+            // label7
+            // 
+            this.label7.AllowDrop = true;
+            this.label7.Image = ((System.Drawing.Image)(resources.GetObject("label7.Image")));
+            this.label7.Location = new System.Drawing.Point(885, 216);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(252, 227);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "label7";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1136, 450);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.btnactualizar);
             this.Controls.Add(this.btnagregar);
             this.Controls.Add(this.dglista);
@@ -194,6 +219,8 @@
         private System.Windows.Forms.DataGridView dglista;
         private System.Windows.Forms.Button btnagregar;
         private System.Windows.Forms.Button btnactualizar;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }
 

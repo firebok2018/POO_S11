@@ -86,5 +86,35 @@ namespace Mantenimientto_cliente
             da.Fill(dt);
             return dt;
         }
+
+        private void btnactualizar_Click(object sender, EventArgs e)
+        {
+            cn.Open();
+            try
+            {
+                SqlCommand cmd = new SqlCommand("usp_updateCliente", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("idcli", txtCodigo.Text);
+                cmd.Parameters.AddWithValue("@nombre", txtNOmbre.Text);
+                cmd.Parameters.AddWithValue("@direccion", txtDirrecion.Text);
+                cmd.Parameters.AddWithValue("@pais", cboPais.SelectedValue.ToString());
+                cmd.Parameters.AddWithValue("@fono", txttefono.Text);
+
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("cliente actualizado");
+
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                cn.Close();
+            }
+
+            dglista.DataSource = null;
+            dglista.DataSource = clientes();
+        }
     }
 }
