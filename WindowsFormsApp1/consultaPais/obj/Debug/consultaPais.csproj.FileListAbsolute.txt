@@ -1,0 +1,10 @@
+D:\POO_S11\WindowsFormsApp1\consultaPais\bin\Debug\consultaPais.exe.config
+D:\POO_S11\WindowsFormsApp1\consultaPais\bin\Debug\consultaPais.exe
+D:\POO_S11\WindowsFormsApp1\consultaPais\bin\Debug\consultaPais.pdb
+D:\POO_S11\WindowsFormsApp1\consultaPais\obj\Debug\consultaPais.Form1.resources
+D:\POO_S11\WindowsFormsApp1\consultaPais\obj\Debug\consultaPais.Properties.Resources.resources
+D:\POO_S11\WindowsFormsApp1\consultaPais\obj\Debug\consultaPais.csproj.GenerateResource.cache
+D:\POO_S11\WindowsFormsApp1\consultaPais\obj\Debug\consultaPais.csproj.CoreCompileInputs.cache
+D:\POO_S11\WindowsFormsApp1\consultaPais\obj\Debug\consultaPais.exe
+D:\POO_S11\WindowsFormsApp1\consultaPais\obj\Debug\consultaPais.pdb
+D:\POO_S11\WindowsFormsApp1\consultaPais\obj\Debug\consultaPais.csprojAssemblyReference.cache

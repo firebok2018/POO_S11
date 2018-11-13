@@ -1,0 +1,10 @@
+D:\POO_S11\WindowsFormsApp1\Mantenimientto cliente\bin\Debug\Mantenimientto cliente.exe.config
+D:\POO_S11\WindowsFormsApp1\Mantenimientto cliente\bin\Debug\Mantenimientto cliente.exe
+D:\POO_S11\WindowsFormsApp1\Mantenimientto cliente\bin\Debug\Mantenimientto cliente.pdb
+D:\POO_S11\WindowsFormsApp1\Mantenimientto cliente\obj\Debug\Mantenimientto cliente.csprojAssemblyReference.cache
+D:\POO_S11\WindowsFormsApp1\Mantenimientto cliente\obj\Debug\Mantenimientto_cliente.Form1.resources
+D:\POO_S11\WindowsFormsApp1\Mantenimientto cliente\obj\Debug\Mantenimientto_cliente.Properties.Resources.resources
+D:\POO_S11\WindowsFormsApp1\Mantenimientto cliente\obj\Debug\Mantenimientto cliente.csproj.GenerateResource.cache
+D:\POO_S11\WindowsFormsApp1\Mantenimientto cliente\obj\Debug\Mantenimientto cliente.csproj.CoreCompileInputs.cache
+D:\POO_S11\WindowsFormsApp1\Mantenimientto cliente\obj\Debug\Mantenimientto cliente.exe
+D:\POO_S11\WindowsFormsApp1\Mantenimientto cliente\obj\Debug\Mantenimientto cliente.pdb
